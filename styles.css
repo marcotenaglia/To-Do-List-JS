@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*:not(button) {
+    text-decoration: none;
+    list-style-type: none;
+    
+
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.caja {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;  
+    min-height: 48em;
+    border: solid 2px rgb(59, 59, 59);
+    border-radius: 4px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    background-color: rgb(223, 233, 243);
+      
+}
+
+.button-submit {
+    background-color: rgb(60, 124, 177);
+}
+
+.caja-children {
+    display: flex; 
+    gap:1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 2rem;   
+    margin-left: 1em;
+    margin-right: 1em; 
+}
+
+
+.input-style {
+    height: 2.3em;
+    border: solid black 1px;
+}
+
+/*lista*/
+
+.ul-style {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    width: 55%;
+    margin-top: 2em;
+}
+
+.li-style {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px rgb(138, 127, 127)
+}
+
+
+li button {
+    border: solid black 1.5px;
+    color: black;
+    margin: 1em;
+    width: 3.6em;
+    height: 2em;
+    background-color: rgb(179, 179, 179);
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.strike {
+    text-decoration: line-through;
+}
+
+.btn-hecho {
+    font-size: 14px;
+    border-radius: 3px;
+    width: auto;
+}
+
+.btn-x {
+    font-size: 14px;
+    border-radius: 3px;
+    width: auto;
+}
+
+.text {
+  overflow: hidden; 
+  word-wrap: break-word;
+}
