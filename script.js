@@ -29,9 +29,9 @@ function toDoList() {
         
 
 
-        buttonElement.innerText = "hecho" 
+        buttonElement.innerText = "✔" 
         buttonElement.classList.add("btn-hecho")       
-        deleteButtonElement.innerText = "X"
+        deleteButtonElement.innerText = "🗑"
         deleteButtonElement.classList.add("btn-x")     
 
         

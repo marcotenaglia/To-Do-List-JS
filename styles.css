@@ -1,12 +1,12 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 *:not(button) {
     text-decoration: none;
     list-style-type: none;
     
 
+}
+
+.bg-primary {
+    background-color: rgb(139, 99, 219) !important;
 }
 
 .caja {
@@ -19,9 +19,8 @@
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 3rem;
-    padding-top: 2rem;
     padding-bottom: 3rem;
-    background-color: rgb(223, 233, 243);
+    background-color: rgb(255, 255, 255);
       
 }
 
@@ -44,18 +43,17 @@ ul {
 }
 
 .title {
-    color: rgb(0, 0, 0);
-    font-size: 30px;
+    color: rgb(29, 28, 28);
+    font-size: 2em;
     text-align: center;
-    margin-bottom: 2rem;   
-    margin-left: 1em;
-    margin-right: 1em; 
+    margin: .8em;
+    font-weight: 600;
 }
 
 
 .input-style {
     height: 2.3em;
-    border: solid black 1px;
+    border: solid rgb(31, 33, 189) 1px;
 }
 
 /*lista*/
@@ -73,9 +71,23 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: solid 1px rgb(138, 127, 127)
+    border: solid rgb(124, 34, 241) 1px;
+    background-color: rgb(215, 196, 238);
+    margin: .5em;
+    padding: .2em .1em;
+    border-radius: 10px;
+    font-weight: 500;
 }
 
+.btn-primary {
+    background-color: rgb(139, 99, 219) !important;
+    border: none !important;
+}
+
+.btn-secondary {
+    background-color: rgb(88, 67, 91) !important;
+    border: none !important;
+}
 
 li button {
     border: solid black 1.5px;
@@ -101,15 +113,20 @@ li button {
     font-size: 14px;
     border-radius: 3px;
     width: auto;
+    background-color: rgb(60, 60, 192);
+    color: white;
 }
 
 .btn-x {
     font-size: 14px;
     border-radius: 3px;
     width: auto;
+    background-color: rgb(60, 60, 192);
+    color: white;
 }
 
 .text {
   overflow: hidden; 
   word-wrap: break-word;
+  padding: 1em;
 }
