@@ -80,8 +80,8 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: solid rgb(124, 34, 241) 1px;
-    background-color: rgb(215, 196, 238);
+    border: none;
+    background-color: rgb(224, 212, 238);
     margin: .5em;
     padding: .2em .1em;
     border-radius: 10px;
@@ -124,6 +124,7 @@ li button {
     width: auto;
     background-color: rgb(60, 60, 192);
     color: white;
+    border: none;
 }
 
 .btn-x {
@@ -132,6 +133,7 @@ li button {
     width: auto;
     background-color: rgb(60, 60, 192);
     color: white;
+    border: none;
 }
 
 .text {
